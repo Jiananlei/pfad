@@ -1,0 +1,3 @@
+Project description:
+
+Click on the screen as input, and the generated image will be output. As the number of clicks increases, the output image will be arranged in a spiral on the screen.
