@@ -1,4 +1,4 @@
-import tkinter as tk
+﻿import tkinter as tk
 from PIL import Image, ImageTk
 import os
 import math
@@ -8,7 +8,7 @@ root = tk.Tk()
 root.geometry("2000x1000")
 
 # 获取图片的绝对路径
-image_path = os.path.abspath("/Users/leijianan/Downloads/4ac6e68f6743bfb03f5dd88b2952195f.jpeg")  # 替换为你的图片路径
+image_path = "4ac6e68f6743bfb03f5dd88b2952195f.jpeg"  # 替换为你的图片路径
 
 # 加载图片
 image = Image.open(image_path)

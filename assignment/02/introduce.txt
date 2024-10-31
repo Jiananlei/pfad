@@ -1,3 +1,17 @@
 Project description:
 
 Click on the screen as input, and the generated image will be output. As the number of clicks increases, the output image will be arranged in a spiral on the screen.
+
+image path：/Users/leijianan/Documents/GitHub/pfad/assignment/02/4ac6e68f6743bfb03f5dd88b2952195f.jpeg
+
+import os
+
+# 绝对路径
+absolute_path = '/Users/leijianan/Documents/GitHub/pfad/assignment/02/4ac6e68f6743bfb03f5dd88b2952195f.jpeg'
+# 基准目录
+base_dir = '/Users/leijianan/Documents/GitHub/pfad'
+
+# 计算相对路径
+relative_path = os.path.relpath(absolute_path, base_dir)
+
+print(relative_path)  # 输出: assignment/02/4ac6e68f6743bfb03f5dd88b2952195f.jpeg
